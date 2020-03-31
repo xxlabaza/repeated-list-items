@@ -24,6 +24,7 @@ import java.util.List;
 
 final class ListUtils {
 
+  @SuppressWarnings("PMD.AvoidLiteralsInIfCondition")
   static List<Integer> findDuplicatesInRow (List<Integer> list) {
     if (list == null) {
       throw new NullPointerException();

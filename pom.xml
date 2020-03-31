@@ -281,7 +281,7 @@ limitations under the License.
           <charset>${project.build.sourceEncoding}</charset>
           <docencoding>${project.build.sourceEncoding}</docencoding>
           <encoding>${project.build.sourceEncoding}</encoding>
-          <failOnError>true</failOnError>
+          <failOnError>false</failOnError>
           <show>protected</show>
           <source>${java.version}</source>
           <version>true</version>

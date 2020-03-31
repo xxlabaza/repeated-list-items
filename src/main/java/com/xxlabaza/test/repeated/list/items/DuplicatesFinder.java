@@ -17,8 +17,8 @@
 package com.xxlabaza.test.repeated.list.items;
 
 import static java.util.Collections.emptyList;
-import static java.util.stream.Collectors.groupingBy;
 import static java.util.stream.Collectors.counting;
+import static java.util.stream.Collectors.groupingBy;
 import static java.util.stream.Collectors.toList;
 
 import java.util.Collections;
